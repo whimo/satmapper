@@ -20,6 +20,7 @@
         <!-- Initialization CSS -->
         <link rel="stylesheet" href="../static/css/maps.css" />
         <script src="../static/js/map_init.js"></script>
+        <script src="../static/js/checkboxes.js"></script>
     </head>
     
     <body>
@@ -29,20 +30,46 @@
                     <h1>🌍SATMapper🌍</h1>
                 </div>
             </div>
-        </div>
+            
+            <div class="ui divider"></div>
         
-        <div class="ui divider"></div>
+            <div class="ui stackable two column centered grid">
+                <div class="column">
+                    <div id="osm_map" class="map"></div>
+                </div>
+                
+                <div class="column">
+                    <div id="l8_map" class="map"></div>
+                </div>
+            </div>
         
-        <div class="ui stackable centered grid">
-            <div class="two wide column"></div> <!-- padding -->
-            <div class="six wide column">
-                <div id="osm_map" class="map"></div>
+            <h2>Show objects:</h2>
+            <div class="ui form">
+                <div class="field">
+                    <div id="osm_checkbox" class="ui checkbox">
+                        <input type="checkbox">
+                        <label>OpenStreetMap polygons</label>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <div id="l8_checkbox" class="ui checkbox">
+                        <input type="checkbox">
+                        <label>Landsat polygons</label>
+                    </div>
+                </div>
             </div>
             
-            <div class="six wide column">
-                <div id="l8_map" class="map"></div>
+            <div class="ui divider"></div>
+            
+            <div class="ui centered grid">
+                <div class="row">
+                    <p>
+                        SATMapper by o9, 2018<br>
+                        <a href="http://geohack.ru/">GeoHack</a>
+                    </p>
+                </div>
             </div>
-            <div class="two wide column"></div> <!-- padding -->
         </div>
     </body>
 </html>
