@@ -8,4 +8,8 @@ $(document).ready(function (){
     L.tileLayer('https://{s}.tiles.mapbox.com/v4/digitalglobe.316c9a2e/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg', {
         attribution: '&copy; DigitalGlobe Premium Imagery - <a href="https://wiki.openstreetmap.org/wiki/DigitalGlobe">Terms & Feedback</a>'
     }).addTo(dg_map);
+    
+    
+    osm_map.sync(dg_map);
+    dg_map.sync(osm_map);
 });
