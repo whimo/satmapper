@@ -31,6 +31,7 @@
         <script src="../static/js/map_init.js"></script>
         <script src="../static/js/checkboxes.js"></script>
         <script src="../static/js/reset_parameters.js"></script>
+        <script src="../static/js/go_to_point.js"></script>
     </head>
     
     <body>
@@ -74,15 +75,15 @@
             <div class="ui form">
                 <div class="three fields">
                     <div class="two wide field">
-                        <input placeholder="Latitude" type="text">
+                        <input id="latitude" placeholder="Latitude" type="text">
                     </div>
                     
                     <div class="two wide field">
-                        <input placeholder="Longitude" type="text">
+                        <input id="longitude" placeholder="Longitude" type="text">
                     </div>
                     
                     <div class="field">
-                        <div class="ui basic button">
+                        <div id="go_button" class="ui basic button">
                             <label>Go!</label>
                         </div>
                     </div>
