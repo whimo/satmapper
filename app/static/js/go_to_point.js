@@ -17,6 +17,6 @@ $(document).ready(function(){
         let new_coords = [parseFloat(latitude), parseFloat(longitude)];
         
         osm_map.setView(new_coords);
-        l8_map.setView(new_coords);
+        dg_map.setView(new_coords);
     });
 });

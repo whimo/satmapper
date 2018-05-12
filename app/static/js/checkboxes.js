@@ -4,11 +4,11 @@ $(document).ready(function() {
         onUnchecked: function() {console.log('onUnchecked osm');}
     });
     
-    $('#l8_checkbox').checkbox({
-        onChecked: function() {console.log('onChecked l8');},
-        onUnchecked: function() {console.log('onUnchecked l8');}
+    $('#dg_checkbox').checkbox({
+        onChecked: function() {console.log('onChecked dg');},
+        onUnchecked: function() {console.log('onUnchecked dg');}
     });
     
     $('#osm_checkbox').checkbox('check');
-    $('#l8_checkbox').checkbox('check');
+    $('#dg_checkbox').checkbox('check');
 });
