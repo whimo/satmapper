@@ -3,4 +3,5 @@ from flask import render_template
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    with open('parsed_maps/map.txt') as map:
+        return render_template('index.html', polygons=map.read())

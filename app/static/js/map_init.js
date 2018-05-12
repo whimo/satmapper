@@ -9,7 +9,11 @@ $(document).ready(function (){
         attribution: '&copy; DigitalGlobe Premium Imagery - <a href="https://wiki.openstreetmap.org/wiki/DigitalGlobe">Terms & Feedback</a>'
     }).addTo(dg_map);
     
-    
     osm_map.sync(dg_map);
     dg_map.sync(osm_map);
+    
+    polygons.forEach(function(current){
+        L.polygon(current).addTo(osm_map);
+        L.polygon(current).addTo(dg_map);
+    });
 });

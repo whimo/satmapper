@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.0 (2563 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="55.7101300" minlon="37.5441300" maxlat="55.7110100" maxlon="37.5453400"/>
+ <node id="1413471849" visible="true" version="1" changeset="9131350" timestamp="2011-08-26T17:12:49Z" user="OldIvantey" uid="314211" lat="55.7106385" lon="37.5442894"/>
+ <node id="1413471850" visible="true" version="1" changeset="9131350" timestamp="2011-08-26T17:12:49Z" user="OldIvantey" uid="314211" lat="55.7106726" lon="37.5443810"/>
+ <node id="1413471851" visible="true" version="1" changeset="9131350" timestamp="2011-08-26T17:12:49Z" user="OldIvantey" uid="314211" lat="55.7107689" lon="37.5441367"/>
+ <node id="1413471852" visible="true" version="1" changeset="9131350" timestamp="2011-08-26T17:12:49Z" user="OldIvantey" uid="314211" lat="55.7108030" lon="37.5442283"/>
+ <node id="1669184602" visible="true" version="2" changeset="10993761" timestamp="2012-03-15T22:33:33Z" user="esaulenka" uid="336354" lat="55.7123055" lon="37.5421999"/>
+ <node id="2330679958" visible="true" version="5" changeset="54539574" timestamp="2017-12-11T15:14:22Z" user="iWowik" uid="481934" lat="55.7101774" lon="37.5442089">
+  <tag k="name" v="Воробьёвы Горы"/>
+  <tag k="place" v="neighbourhood"/>
+  <tag k="wikidata" v="Q592880"/>
+  <tag k="wikipedia" v="ru:Воробьёвы горы"/>
+ </node>
+ <node id="2619164466" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7118216" lon="37.5426434"/>
+ <node id="2619164468" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7121208" lon="37.5448519"/>
+ <node id="2619164470" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7106249" lon="37.5454114"/>
+ <node id="2619164475" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7106309" lon="37.5423001"/>
+ <node id="2619164489" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7117733" lon="37.5456367"/>
+ <node id="2619164495" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:29Z" user="Павел Гетманцев" uid="571410" lat="55.7106974" lon="37.5406371"/>
+ <node id="2619164596" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:30Z" user="Павел Гетманцев" uid="571410" lat="55.7100506" lon="37.5435232"/>
+ <node id="2619164600" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:30Z" user="Павел Гетманцев" uid="571410" lat="55.7102380" lon="37.5454436"/>
+ <node id="2619164605" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:30Z" user="Павел Гетманцев" uid="571410" lat="55.7125469" lon="37.5433837"/>
+ <node id="2619164607" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:30Z" user="Павел Гетманцев" uid="571410" lat="55.7108062" lon="37.5462912"/>
+ <node id="2619164637" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7113804" lon="37.5460659"/>
+ <node id="2619164655" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7119334" lon="37.5425345"/>
+ <node id="2619164668" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7114771" lon="37.5396828"/>
+ <node id="2619164670" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7102259" lon="37.5430725"/>
+ <node id="2619164672" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7100688" lon="37.5424932"/>
+ <node id="2619164675" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7105221" lon="37.5451325"/>
+ <node id="2619164686" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7106430" lon="37.5456475"/>
+ <node id="2619164688" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7106249" lon="37.5409053"/>
+ <node id="2619164699" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7118337" lon="37.5394038"/>
+ <node id="2619164706" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7102682" lon="37.5456045"/>
+ <node id="2619164727" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7104798" lon="37.5453471"/>
+ <node id="2619164731" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:31Z" user="Павел Гетманцев" uid="571410" lat="55.7109875" lon="37.5419031"/>
+ <node id="2619164759" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:32Z" user="Павел Гетманцев" uid="571410" lat="55.7122628" lon="37.5424717"/>
+ <node id="2619164767" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:32Z" user="Павел Гетманцев" uid="571410" lat="55.7118700" lon="37.5453363"/>
+ <node id="2619164788" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:32Z" user="Павел Гетманцев" uid="571410" lat="55.7113804" lon="37.5425146"/>
+ <node id="2619164801" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:32Z" user="Павел Гетманцев" uid="571410" lat="55.7116433" lon="37.5396162"/>
+ <node id="2619164836" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7103408" lon="37.5411950"/>
+ <node id="2619164840" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7116282" lon="37.5458620"/>
+ <node id="2619164868" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7100688" lon="37.5416885"/>
+ <node id="2619164886" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7127947" lon="37.5381056"/>
+ <node id="2619164901" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7120029" lon="37.5424825"/>
+ <node id="2619164907" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7106309" lon="37.5460766"/>
+ <node id="2619164911" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:33Z" user="Павел Гетманцев" uid="571410" lat="55.7100778" lon="37.5442404"/>
+ <node id="2619164930" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7109724" lon="37.5401527"/>
+ <node id="2619164934" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7103045" lon="37.5432657"/>
+ <node id="2619164955" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7110117" lon="37.5431262"/>
+ <node id="2619164966" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7115315" lon="37.5420748"/>
+ <node id="2619164970" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7133538" lon="37.5377602"/>
+ <node id="2619164989" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7108968" lon="37.5420962"/>
+ <node id="2619164997" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7120301" lon="37.5450665"/>
+ <node id="2619165017" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7106067" lon="37.5452290"/>
+ <node id="2619165019" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:34Z" user="Павел Гетманцев" uid="571410" lat="55.7109815" lon="37.5465058"/>
+ <node id="2619165035" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7124200" lon="37.5405405"/>
+ <node id="2619165038" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7125529" lon="37.5399724"/>
+ <node id="2619165040" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7124865" lon="37.5402085"/>
+ <node id="2619165045" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7124955" lon="37.5441760"/>
+ <node id="2619165047" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7103045" lon="37.5458835"/>
+ <node id="2619165073" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7106369" lon="37.5437377"/>
+ <node id="2619165115" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7115496" lon="37.5429974"/>
+ <node id="2619165126" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:35Z" user="Павел Гетманцев" uid="571410" lat="55.7135925" lon="37.5382666"/>
+ <node id="2619165170" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:36Z" user="Павел Гетманцев" uid="571410" lat="55.7111144" lon="37.5414096"/>
+ <node id="2619165173" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:36Z" user="Павел Гетманцев" uid="571410" lat="55.7108364" lon="37.5432871"/>
+ <node id="2619165252" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:36Z" user="Павел Гетманцев" uid="571410" lat="55.7121148" lon="37.5391764"/>
+ <node id="2619165258" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:36Z" user="Павел Гетманцев" uid="571410" lat="55.7121087" lon="37.5424808"/>
+ <node id="2619165279" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7116826" lon="37.5417100"/>
+ <node id="2619165321" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7110480" lon="37.5435124"/>
+ <node id="2619165324" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7106672" lon="37.5455509"/>
+ <node id="2619165340" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7108968" lon="37.5442420"/>
+ <node id="2619165364" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7107457" lon="37.5434588"/>
+ <node id="2619165376" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:37Z" user="Павел Гетманцев" uid="571410" lat="55.7102561" lon="37.5452934"/>
+ <node id="2619165416" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7130304" lon="37.5395326"/>
+ <node id="2619165445" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7135623" lon="37.5385240"/>
+ <node id="2619165446" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7107064" lon="37.5420302"/>
+ <node id="2619165461" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7108001" lon="37.5418924"/>
+ <node id="2619165471" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7122326" lon="37.5408409"/>
+ <node id="2619165480" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7109694" lon="37.5417422"/>
+ <node id="2619165497" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7136106" lon="37.5379018"/>
+ <node id="2619165498" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:38Z" user="Павел Гетманцев" uid="571410" lat="55.7109331" lon="37.5445102"/>
+ <node id="2619165509" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7123414" lon="37.5443815"/>
+ <node id="2619165529" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7103649" lon="37.5460230"/>
+ <node id="2619165573" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7127101" lon="37.5438236"/>
+ <node id="2619165585" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7119636" lon="37.5411612"/>
+ <node id="2619165605" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7125892" lon="37.5440167"/>
+ <node id="2619165609" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7124955" lon="37.5431460"/>
+ <node id="2619165619" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:39Z" user="Павел Гетманцев" uid="571410" lat="55.7102017" lon="37.5431691"/>
+ <node id="2619165639" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7125439" lon="37.5385326"/>
+ <node id="2619165647" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7104677" lon="37.5422571"/>
+ <node id="2619165658" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7126466" lon="37.5382751"/>
+ <node id="2619165665" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7103347" lon="37.5424074"/>
+ <node id="2619165678" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7101594" lon="37.5426327"/>
+ <node id="2619165699" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7110117" lon="37.5439523"/>
+ <node id="2619165707" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7110056" lon="37.5446819"/>
+ <node id="2619165709" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:40Z" user="Павел Гетманцев" uid="571410" lat="55.7106007" lon="37.5459371"/>
+ <node id="2619165752" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:41Z" user="Павел Гетманцев" uid="571410" lat="55.7113139" lon="37.5427185"/>
+ <node id="2619165808" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:41Z" user="Павел Гетманцев" uid="571410" lat="55.7104375" lon="37.5451325"/>
+ <node id="2619165827" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:41Z" user="Павел Гетманцев" uid="571410" lat="55.7104012" lon="37.5425683"/>
+ <node id="2619165853" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7103831" lon="37.5431584"/>
+ <node id="2619165861" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7123535" lon="37.5389210"/>
+ <node id="2619165865" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7126557" lon="37.5436412"/>
+ <node id="2619165890" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7110600" lon="37.5416134"/>
+ <node id="2619165912" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7111870" lon="37.5462268"/>
+ <node id="2619165920" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7104133" lon="37.5434159"/>
+ <node id="2619165924" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7131997" lon="37.5392965"/>
+ <node id="2619165930" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:42Z" user="Павел Гетманцев" uid="571410" lat="55.7113351" lon="37.5397986"/>
+ <node id="2619165947" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7100748" lon="37.5432335"/>
+ <node id="2619165949" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7123595" lon="37.5426005"/>
+ <node id="2619165961" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7107760" lon="37.5405513"/>
+ <node id="2619165967" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7100355" lon="37.5440794"/>
+ <node id="2619165993" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7105221" lon="37.5410019"/>
+ <node id="2619165998" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7111567" lon="37.5429653"/>
+ <node id="2619166020" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7117189" lon="37.5427936"/>
+ <node id="2619166031" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:43Z" user="Павел Гетманцев" uid="571410" lat="55.7127464" lon="37.5398437"/>
+ <node id="2619166039" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7105523" lon="37.5420318"/>
+ <node id="2619166043" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7102894" lon="37.5441331"/>
+ <node id="2619166054" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7109664" lon="37.5453347"/>
+ <node id="2619166066" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7110812" lon="37.5399596"/>
+ <node id="2619166081" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7134595" lon="37.5387815"/>
+ <node id="2619166092" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7111688" lon="37.5416992"/>
+ <node id="2619166094" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7108757" lon="37.5403995"/>
+ <node id="2619166103" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7107155" lon="37.5453578"/>
+ <node id="2619166125" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:44Z" user="Павел Гетманцев" uid="571410" lat="55.7135623" lon="37.5376336"/>
+ <node id="2619166180" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:45Z" user="Павел Гетманцев" uid="571410" lat="55.7099721" lon="37.5423001"/>
+ <node id="2619166188" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:45Z" user="Павел Гетманцев" uid="571410" lat="55.7117853" lon="37.5411950"/>
+ <node id="2619166198" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:45Z" user="Павел Гетманцев" uid="571410" lat="55.7130123" lon="37.5379554"/>
+ <node id="2619166227" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:45Z" user="Павел Гетманцев" uid="571410" lat="55.7131876" lon="37.5378052"/>
+ <node id="2619166244" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:46Z" user="Павел Гетманцев" uid="571410" lat="55.7122507" lon="37.5446282"/>
+ <node id="2619166259" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:46Z" user="Павел Гетманцев" uid="571410" lat="55.7115103" lon="37.5459033"/>
+ <node id="2619166263" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:46Z" user="Павел Гетманцев" uid="571410" lat="55.7116886" lon="37.5415169"/>
+ <node id="2619166292" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:46Z" user="Павел Гетманцев" uid="571410" lat="55.7129337" lon="37.5397471"/>
+ <node id="2619166321" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7105040" lon="37.5439630"/>
+ <node id="2619166329" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7110661" lon="37.5450359"/>
+ <node id="2619166343" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7101957" lon="37.5428258"/>
+ <node id="2619166345" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7124502" lon="37.5427936"/>
+ <node id="2619166348" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7105070" lon="37.5461179"/>
+ <node id="2619166356" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7104193" lon="37.5454973"/>
+ <node id="2619166376" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7113018" lon="37.5413452"/>
+ <node id="2619166391" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7108606" lon="37.5465272"/>
+ <node id="2619166416" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7109754" lon="37.5436412"/>
+ <node id="2619166418" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7099721" lon="37.5420426"/>
+ <node id="2619166419" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7112474" lon="37.5432335"/>
+ <node id="2619166425" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:47Z" user="Павел Гетманцев" uid="571410" lat="55.7108919" lon="37.5432361"/>
+ <node id="2772202232" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108833" lon="37.5452154"/>
+ <node id="2772202234" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7101926" lon="37.5443923"/>
+ <node id="2772202235" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109061" lon="37.5451833"/>
+ <node id="2772202236" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7101744" lon="37.5446337"/>
+ <node id="2772202237" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109347" lon="37.5452377"/>
+ <node id="2772202238" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109543" lon="37.5450315"/>
+ <node id="2772202239" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109448" lon="37.5447678"/>
+ <node id="2772202240" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102456" lon="37.5448032"/>
+ <node id="2772202241" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109963" lon="37.5450414"/>
+ <node id="2772202242" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102318" lon="37.5443279"/>
+ <node id="2772202244" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102261" lon="37.5444382"/>
+ <node id="2772202245" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108440" lon="37.5452348"/>
+ <node id="2772202246" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108030" lon="37.5453042"/>
+ <node id="2772202247" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109721" lon="37.5448536"/>
+ <node id="2772202248" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109382" lon="37.5451213"/>
+ <node id="2772202249" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7107533" lon="37.5452860"/>
+ <node id="2772202250" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7104895" lon="37.5444043"/>
+ <node id="2772202251" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108484" lon="37.5453096"/>
+ <node id="2772202252" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108800" lon="37.5447612"/>
+ <node id="2772202253" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7101684" lon="37.5444727"/>
+ <node id="2772202255" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102802" lon="37.5442796"/>
+ <node id="2772202256" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102984" lon="37.5443464"/>
+ <node id="2772202257" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7103431" lon="37.5443351"/>
+ <node id="2772202258" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7104984" lon="37.5443169"/>
+ <node id="2772202259" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109026" lon="37.5452828"/>
+ <node id="2772202260" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7103937" lon="37.5442464"/>
+ <node id="2772202261" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7103349" lon="37.5442399"/>
+ <node id="2772202262" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7107677" lon="37.5452156"/>
+ <node id="2772202263" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102003" lon="37.5447174"/>
+ <node id="2772202265" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102343" lon="37.5446735"/>
+ <node id="2772202266" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109046" lon="37.5447005"/>
+ <node id="2772202267" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7103864" lon="37.5443400"/>
+ <node id="2772202268" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109752" lon="37.5451594"/>
+ <node id="2772202269" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7101623" lon="37.5445425"/>
+ <node id="2772202270" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102086" lon="37.5444965"/>
+ <node id="2772202271" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102566" lon="37.5443882"/>
+ <node id="2772202272" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109356" lon="37.5448894"/>
+ <node id="2772202273" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7108087" lon="37.5452306"/>
+ <node id="2772202274" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7104380" lon="37.5443695"/>
+ <node id="2772202275" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102138" lon="37.5446069"/>
+ <node id="2772202276" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102048" lon="37.5445395"/>
+ <node id="2772202277" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109520" lon="37.5449436"/>
+ <node id="2772202280" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109116" lon="37.5448140"/>
+ <node id="2772202281" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7102714" lon="37.5447436"/>
+ <node id="2772202283" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:17Z" user="Павел Гетманцев" uid="571410" lat="55.7109933" lon="37.5449233"/>
+ <node id="2772202285" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:18Z" user="Павел Гетманцев" uid="571410" lat="55.7104436" lon="37.5442734"/>
+ <node id="2824837997" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7112213" lon="37.5432292"/>
+ <node id="2824837998" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7117419" lon="37.5426256"/>
+ <node id="2824837999" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7114158" lon="37.5430270"/>
+ <node id="2824838000" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7109093" lon="37.5437271"/>
+ <node id="2824842701" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7106463" lon="37.5441253"/>
+ <node id="2824842702" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7104290" lon="37.5442187"/>
+ <node id="2824842703" visible="true" version="1" changeset="22028394" timestamp="2014-04-29T18:13:45Z" user="augxcgrwxo" uid="371263" lat="55.7103326" lon="37.5442156"/>
+ <node id="4838979403" visible="true" version="1" changeset="48459556" timestamp="2017-05-06T19:09:50Z" user="Echo78" uid="4292789" lat="55.7113336" lon="37.5431124"/>
+ <way id="127764484" visible="true" version="1" changeset="9131350" timestamp="2011-08-26T17:12:50Z" user="OldIvantey" uid="314211">
+  <nd ref="1413471851"/>
+  <nd ref="1413471852"/>
+  <nd ref="1413471850"/>
+  <nd ref="1413471849"/>
+  <nd ref="1413471851"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="256240675" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:50Z" user="Павел Гетманцев" uid="571410">
+  <nd ref="2619164759"/>
+  <nd ref="2619165949"/>
+  <nd ref="2619166345"/>
+  <nd ref="2619165609"/>
+  <nd ref="2619164605"/>
+  <nd ref="2619165865"/>
+  <nd ref="2619165573"/>
+  <nd ref="2619165605"/>
+  <nd ref="2619165045"/>
+  <nd ref="2619165509"/>
+  <nd ref="2619166244"/>
+  <nd ref="2619164468"/>
+  <nd ref="2619164997"/>
+  <nd ref="2619164767"/>
+  <nd ref="2619164489"/>
+  <nd ref="2619164840"/>
+  <nd ref="2619166259"/>
+  <nd ref="2619164637"/>
+  <nd ref="2619165912"/>
+  <nd ref="2619165019"/>
+  <nd ref="2619166391"/>
+  <nd ref="2619164607"/>
+  <nd ref="2619164907"/>
+  <nd ref="2619165324"/>
+  <nd ref="2619166103"/>
+  <nd ref="2619166054"/>
+  <nd ref="2619166329"/>
+  <nd ref="2619165707"/>
+  <nd ref="2619165498"/>
+  <nd ref="2619165340"/>
+  <nd ref="2619165699"/>
+  <nd ref="2619166416"/>
+  <nd ref="2619165321"/>
+  <nd ref="2619166419"/>
+  <nd ref="2619165115"/>
+  <nd ref="2619166020"/>
+  <nd ref="2619164466"/>
+  <nd ref="2619164655"/>
+  <nd ref="2619164901"/>
+  <nd ref="2619165258"/>
+  <nd ref="2619164759"/>
+  <tag k="natural" v="wood"/>
+ </way>
+ <way id="256240705" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:51Z" user="Павел Гетманцев" uid="571410">
+  <nd ref="2619165445"/>
+  <nd ref="2619165126"/>
+  <nd ref="2619165497"/>
+  <nd ref="2619166125"/>
+  <nd ref="2619164970"/>
+  <nd ref="2619166227"/>
+  <nd ref="2619166198"/>
+  <nd ref="2619164886"/>
+  <nd ref="2619165658"/>
+  <nd ref="2619165639"/>
+  <nd ref="2619165861"/>
+  <nd ref="2619165252"/>
+  <nd ref="2619164699"/>
+  <nd ref="2619164801"/>
+  <nd ref="2619164668"/>
+  <nd ref="2619165930"/>
+  <nd ref="2619166066"/>
+  <nd ref="2619164930"/>
+  <nd ref="2619166094"/>
+  <nd ref="2619165961"/>
+  <nd ref="2619164495"/>
+  <nd ref="2619164688"/>
+  <nd ref="2619165993"/>
+  <nd ref="2619164836"/>
+  <nd ref="2619164868"/>
+  <nd ref="2619166418"/>
+  <nd ref="2619166180"/>
+  <nd ref="2619164672"/>
+  <nd ref="2619165678"/>
+  <nd ref="2619165665"/>
+  <nd ref="2619165647"/>
+  <nd ref="2619166039"/>
+  <nd ref="2619165446"/>
+  <nd ref="2619165461"/>
+  <nd ref="2619165480"/>
+  <nd ref="2619165890"/>
+  <nd ref="2619165170"/>
+  <nd ref="2619166376"/>
+  <nd ref="2619166092"/>
+  <nd ref="2619164731"/>
+  <nd ref="2619164989"/>
+  <nd ref="2619164475"/>
+  <nd ref="2619165827"/>
+  <nd ref="2619166343"/>
+  <nd ref="2619164670"/>
+  <nd ref="2619165853"/>
+  <nd ref="2619165920"/>
+  <nd ref="2619164934"/>
+  <nd ref="2619165619"/>
+  <nd ref="2619165947"/>
+  <nd ref="2619164596"/>
+  <nd ref="2619165967"/>
+  <nd ref="2619164911"/>
+  <nd ref="2619166043"/>
+  <nd ref="2619166321"/>
+  <nd ref="2619165073"/>
+  <nd ref="2619165364"/>
+  <nd ref="2619165173"/>
+  <nd ref="2619166425"/>
+  <nd ref="2619164955"/>
+  <nd ref="2619165998"/>
+  <nd ref="2619165752"/>
+  <nd ref="2619164788"/>
+  <nd ref="2619164966"/>
+  <nd ref="2619165279"/>
+  <nd ref="2619166263"/>
+  <nd ref="2619166188"/>
+  <nd ref="2619165585"/>
+  <nd ref="2619165471"/>
+  <nd ref="2619165035"/>
+  <nd ref="2619165040"/>
+  <nd ref="2619165038"/>
+  <nd ref="2619166031"/>
+  <nd ref="2619166292"/>
+  <nd ref="2619165416"/>
+  <nd ref="2619165924"/>
+  <nd ref="2619166081"/>
+  <nd ref="2619165445"/>
+  <tag k="natural" v="wood"/>
+ </way>
+ <way id="256240729" visible="true" version="1" changeset="19944385" timestamp="2014-01-11T22:52:52Z" user="Павел Гетманцев" uid="571410">
+  <nd ref="2619165808"/>
+  <nd ref="2619164727"/>
+  <nd ref="2619166356"/>
+  <nd ref="2619165376"/>
+  <nd ref="2619164600"/>
+  <nd ref="2619164706"/>
+  <nd ref="2619165047"/>
+  <nd ref="2619165529"/>
+  <nd ref="2619166348"/>
+  <nd ref="2619165709"/>
+  <nd ref="2619164686"/>
+  <nd ref="2619164470"/>
+  <nd ref="2619165017"/>
+  <nd ref="2619164675"/>
+  <nd ref="2619165808"/>
+  <tag k="natural" v="wood"/>
+ </way>
+ <way id="272262975" visible="true" version="3" changeset="47301662" timestamp="2017-03-30T18:36:25Z" user="Steve_32" uid="334643">
+  <nd ref="2772202255"/>
+  <nd ref="2772202242"/>
+  <nd ref="2772202234"/>
+  <nd ref="2772202253"/>
+  <nd ref="2772202269"/>
+  <nd ref="2772202236"/>
+  <nd ref="2772202263"/>
+  <nd ref="2772202240"/>
+  <nd ref="2772202249"/>
+  <nd ref="2772202246"/>
+  <nd ref="2772202251"/>
+  <nd ref="2772202259"/>
+  <nd ref="2772202237"/>
+  <nd ref="2772202268"/>
+  <nd ref="2772202241"/>
+  <nd ref="2772202283"/>
+  <nd ref="2772202247"/>
+  <nd ref="2772202239"/>
+  <nd ref="2772202266"/>
+  <nd ref="2772202258"/>
+  <nd ref="2772202285"/>
+  <nd ref="2772202260"/>
+  <nd ref="2772202261"/>
+  <nd ref="2772202255"/>
+ </way>
+ <way id="272262978" visible="true" version="1" changeset="21530112" timestamp="2014-04-06T11:11:18Z" user="Павел Гетманцев" uid="571410">
+  <nd ref="2772202256"/>
+  <nd ref="2772202271"/>
+  <nd ref="2772202244"/>
+  <nd ref="2772202270"/>
+  <nd ref="2772202276"/>
+  <nd ref="2772202275"/>
+  <nd ref="2772202265"/>
+  <nd ref="2772202281"/>
+  <nd ref="2772202262"/>
+  <nd ref="2772202273"/>
+  <nd ref="2772202245"/>
+  <nd ref="2772202232"/>
+  <nd ref="2772202235"/>
+  <nd ref="2772202248"/>
+  <nd ref="2772202238"/>
+  <nd ref="2772202277"/>
+  <nd ref="2772202272"/>
+  <nd ref="2772202280"/>
+  <nd ref="2772202252"/>
+  <nd ref="2772202250"/>
+  <nd ref="2772202274"/>
+  <nd ref="2772202267"/>
+  <nd ref="2772202257"/>
+  <nd ref="2772202256"/>
+ </way>
+ <way id="278054342" visible="true" version="2" changeset="48459556" timestamp="2017-05-06T19:09:50Z" user="Echo78" uid="4292789">
+  <nd ref="1669184602"/>
+  <nd ref="2824837998"/>
+  <nd ref="2824837999"/>
+  <nd ref="4838979403"/>
+  <nd ref="2824837997"/>
+  <nd ref="2824838000"/>
+  <nd ref="2824842701"/>
+  <nd ref="2824842702"/>
+  <nd ref="2824842703"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <relation id="3632929" visible="true" version="2" changeset="47301662" timestamp="2017-03-30T18:36:36Z" user="Steve_32" uid="334643">
+  <member type="way" ref="272262975" role="outer"/>
+  <member type="way" ref="272262978" role="inner"/>
+  <member type="sas" ref="123"/>
+  <member ref="1337"/>
+  <tag k="leisure" v="track"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+</osm>
