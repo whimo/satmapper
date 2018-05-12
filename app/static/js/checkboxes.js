@@ -9,12 +9,12 @@ $(document).ready(function() {
         onUnchecked: function() {console.log('onUnchecked dg1');}
     });
     
-    $('#osm_checkbox1').checkbox({
+    $('#osm_checkbox2').checkbox({
         onChecked: function() {console.log('onChecked osm2');},
         onUnchecked: function() {console.log('onUnchecked osm2');}
     });
     
-    $('#dg_checkbox1').checkbox({
+    $('#dg_checkbox2').checkbox({
         onChecked: function() {console.log('onChecked dg2');},
         onUnchecked: function() {console.log('onUnchecked dg2');}
     });
