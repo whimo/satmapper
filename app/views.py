@@ -14,7 +14,7 @@ def index():
                 x, y = deg2num(float(form.lat.data), float(form.lon.data), int(form.zoom.data))
             except ValueError:
                 flash('Unexpected error occurred')
-                return render_template('index.html', osm_raw_polygons=osm_map.read(), form=form)
+                return render_template('index.html', osm_raw_polygons=osm_map.read(), dg_raw_polygons=[], form=form)
 
             url = 'https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/' +\
             '{}/{}/{}.png'.format(int(form.zoom.data), x, y) + '?access_token=' +\
@@ -32,4 +32,4 @@ def index():
             for _, err in form.errors.items():
                 flash(err[0])
 
-        return render_template('index.html', osm_raw_polygons=osm_map.read(), form=form)
+        return render_template('index.html', osm_raw_polygons=osm_map.read(), dg_raw_polygons=[], form=form)
