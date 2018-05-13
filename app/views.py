@@ -2,6 +2,7 @@ from . import app
 from .forms import TileMap
 from .coordinate_translations import deg2num
 from flask import render_template, redirect, flash
+import requests
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -18,6 +19,8 @@ def index():
             url = 'https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/' +\
             '{}/{}/{}.png'.format(int(form.zoom.data), x, y) + '?access_token=' +\
             'pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg'
+
+            image = requests.get(url).content
 
             return redirect('/')
 
