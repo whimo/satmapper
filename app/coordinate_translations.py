@@ -15,3 +15,16 @@ def num2deg(xtile, ytile, zoom=16):
     lat_rad = math.atan(math.sinh(math.pi * (1 - 2 * ytile / n)))
     lat_deg = math.degrees(lat_rad)
     return lat_deg, lon_deg
+
+
+def pix2deg(x, y, abs_tile_x, abs_tile_y):
+    xtile = abs_tile_x + x / 256
+    ytile = abs_tile_y + y / 256
+    return num2deg(xtile, ytile)
+
+
+def img2list(img, abs_tile_x, abs_tile_y):
+    for i in range(len(img)):
+        for j in img[i]:
+            if img[i][j] == 1:
+                yield [pix2deg(i, j, abs_tile_x, abs_tile_y)]
