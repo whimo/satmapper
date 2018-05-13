@@ -20,7 +20,11 @@ def index():
             '{}/{}/{}.png'.format(int(form.zoom.data), x, y) + '?access_token=' +\
             'pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg'
 
-            image = requests.get(url).content
+            response = requests.get(url)
+            if response.status_code == 200:
+                print('OK') # Success; TODO: change behavior
+            else:
+                flash('Could not fetch the tile from the tile server - perhaps, your coordinates are invalid.')
 
             return redirect('/')
 
