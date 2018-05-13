@@ -3,6 +3,9 @@ from .forms import TileMap
 from .coordinate_translations import deg2num
 from flask import render_template, redirect, flash
 import requests
+from io import BytesIO
+import numpy as np
+from PIL import Image
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -22,7 +25,9 @@ def index():
 
             response = requests.get(url)
             if response.status_code == 200:
-                print('OK') # Success; TODO: change behavior
+                img = Image.open(BytesIO(response.content))
+                converted = np.array(img.convert('RGB'))
+                print('OK', converted) # Success; TODO: change behavior
             else:
                 flash('Could not fetch the tile from the tile server - perhaps, your coordinates are invalid.')
 
