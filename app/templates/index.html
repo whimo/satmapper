@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>SATMapper - tool for satellite image mapping</title>
+        <title>SatMapper - tool for satellite image mapping</title>
         
         <meta charset="UTF-8">
         
@@ -25,11 +25,27 @@
         
         <script>
             // Definitions for later usage
-            const default_coords = [51.505, -0.09];
-            const default_zoom = 12;
+            const default_coords = [55.7102802, 37.5442796];
+            const default_zoom = 13;
+            const osm_raw_polygons = {{ osm_raw_polygons }};
+            const dg_raw_polygons = {{ dg_raw_polygons }};
             
             let osm_map = undefined;
             let dg_map = undefined;
+            
+            let bounds_coords1 = {{ bounds_coord1 }};
+            let bounds_coords2 = {{ bounds_coord2 }};
+            
+            // Useful function(s)
+            function reset_checkboxes(){
+                $('#osm_checkbox1').checkbox('uncheck');
+                $('#osm_checkbox2').checkbox('uncheck');
+                $('#dg_checkbox1').checkbox('uncheck');
+                $('#dg_checkbox2').checkbox('uncheck');
+                
+                $('#osm_checkbox1').checkbox('check');
+                $('#dg_checkbox2').checkbox('check');
+            }
         </script>
         <script src="../static/js/map_init.js"></script>
         <script src="../static/js/checkboxes.js"></script>
@@ -41,11 +57,26 @@
         <div class="ui container">
             <div class="ui centered aligned grid">
                 <div class="row">
-                    <h1>🌍SATMapper🌍</h1>
+                    <h1>🌍SatMapper🌍</h1>
                 </div>
             </div>
             
             <div class="ui divider"></div>
+            
+            {% with flashes = get_flashed_messages() %}
+				{% if flashes %}
+					<div class="ui negative message">
+						<div class="header">
+							Tile mapping error
+						</div>
+						<ul class="list">
+							{% for f in flashes %}
+								<li>{{ f }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				{% endif %}
+			{% endwith %}
         
             <div class="ui stackable two column centered grid">
                 <div class="column">
@@ -88,6 +119,29 @@
                     </div>
                 </div>
             </div>
+            
+            <h2>Map a tile:</h2>
+            <form class="ui form" method="post">
+                {{ form.hidden_tag() }}
+                
+                <div class="four fields">
+                    <div class="two wide field">
+                        {{ form.lat() }}
+                    </div>
+                    
+                    <div class="two wide field">
+                        {{ form.lon() }}
+                    </div>
+                    
+                    <div class="two wide field">
+                        {{ form.zoom() }}
+                    </div>
+                    
+                    <div class="field">
+                        {{ form.submit(class_="ui basic button") }}
+                    </div>
+                </div>
+            </form>
 
             <h2>Go to point:</h2>
             <div class="ui form">
@@ -119,7 +173,7 @@
             <div class="ui centered grid">
                 <div class="row">
                     <p>
-                        SATMapper by o9, 2018<br>
+                        SatMapper by o9, 2018<br>
                         <a href="http://geohack.ru/">GeoHack</a>
                     </p>
                 </div>
