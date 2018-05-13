@@ -12,7 +12,8 @@ $(document).ready(function() {
     function remove_osm_polygons(osm_polygons, map)
     {
         osm_polygons.forEach(function(current){
-            map.removeLayer(current);
+            if (current)
+                map.removeLayer(current);
         });
     }
     
