@@ -18,7 +18,7 @@ def index():
             except ValueError:
                 flash('Unexpected error occurred')
                 return render_template('index.html', osm_raw_polygons=osm_map.read(), dg_raw_polygons=[],
-                                       bounds_coord1 = 'null', bounds_coord2 = 'null', form=form)
+                                       bounds_coord1 = 'null', bounds_coord2 = 'null', img_src = 'null', form=form)
 
             url = 'https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/' +\
             '{}/{}/{}.png'.format(int(form.zoom.data), x, y) + '?access_token=' +\
@@ -34,7 +34,9 @@ def index():
 
                 return render_template('index.html', osm_raw_polygons=osm_map.read(),
                                        dg_raw_polygons=[], bounds_coord1 = repr(list(bounds_coord1)),
-                                       bounds_coord2 = repr(list(bounds_coord2)), form=form)
+                                       bounds_coord2 = repr(list(bounds_coord2)),
+                                       img_src='http://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg',
+                                       form=form)
             else:
                 flash('Could not fetch the tile from the tile server - perhaps, your coordinates are invalid.')
 
@@ -43,4 +45,4 @@ def index():
                 flash(err[0])
 
         return render_template('index.html', osm_raw_polygons=osm_map.read(), dg_raw_polygons=[],
-                               bounds_coord1 = 'null', bounds_coord2 = 'null', form=form)
+                               bounds_coord1 = 'null', bounds_coord2 = 'null', img_src = 'null', form=form)
