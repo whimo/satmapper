@@ -4,6 +4,9 @@ $(document).ready(function() {
     let osm_map_points = dg_raw_polygons.map(function(arr) {return L.circle(arr, {radius: 1});});
     let dg_map_points = dg_raw_polygons.map(function(arr) {return L.circle(arr, {radius: 1});});
     
+    console.log(dg_raw_polygons);
+    console.log(osm_map_points);
+    
     
     function add_polygons(polygons, map){
         polygons.forEach(function(current){

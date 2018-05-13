@@ -11,4 +11,13 @@ $(document).ready(function (){
     
     osm_map.sync(dg_map);
     dg_map.sync(osm_map);
+    
+    if (bounds_coords1 != null && bounds_coords2 != null)
+    {
+        console.log('draw!');
+        var imageUrl = 'http://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg',
+        imageBounds = [bounds_coords1, bounds_coords2];
+
+        L.imageOverlay(imageUrl, imageBounds).addTo(osm_map);
+    }
 });
