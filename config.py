@@ -1,5 +1,5 @@
-host = 'localhost'
-port = 80
+host = '0.0.0.0'
+port = 4747
 debug = True
 
 CSRF_ENABLED = True
