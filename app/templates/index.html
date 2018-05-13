@@ -31,6 +31,17 @@
             
             let osm_map = undefined;
             let dg_map = undefined;
+            
+            // Useful function(s)
+            function reset_checkboxes(){
+                $('#osm_checkbox1').checkbox('uncheck');
+                $('#osm_checkbox2').checkbox('uncheck');
+                $('#dg_checkbox1').checkbox('uncheck');
+                $('#dg_checkbox2').checkbox('uncheck');
+                
+                $('#osm_checkbox1').checkbox('check');
+                $('#dg_checkbox2').checkbox('check');
+            }
         </script>
         <script src="../static/js/map_init.js"></script>
         <script src="../static/js/checkboxes.js"></script>

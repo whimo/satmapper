@@ -37,11 +37,5 @@ $(document).ready(function() {
         onUnchecked: function() {console.log('onUnchecked dg2');}
     });
     
-    $('#osm_checkbox1').checkbox('uncheck');
-    $('#osm_checkbox2').checkbox('uncheck');
-    $('#dg_checkbox1').checkbox('uncheck');
-    $('#dg_checkbox2').checkbox('uncheck');
-    
-    $('#osm_checkbox1').checkbox('check');
-    $('#dg_checkbox2').checkbox('check');
+    reset_checkboxes();
 });
