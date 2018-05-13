@@ -118,3 +118,13 @@ class GeoUNet(object):
         image /= 256
         image -= 0.5
         return self.model.predict(image.reshape((1, 256, 256, 3))).round().reshape((256, 256))
+
+    def highlight_objects(self, image):
+        mask = self.generate_mask(image)
+        the_red = np.array([0, 0, 255])
+        for i in range(256):
+            for j in range(256):
+                if mask[i][j]:
+                    image[i][j] = (image[i][j] + the_red) / 2
+
+        return image
