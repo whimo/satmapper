@@ -1,6 +1,6 @@
 from . import app
 from .forms import TileMap
-from .coordinate_translations import deg2num
+from .coordinate_translations import deg2num, img2list
 from flask import render_template, redirect, flash
 import requests
 from io import BytesIO
@@ -28,10 +28,11 @@ def index():
                 img = Image.open(BytesIO(response.content))
                 converted = np.array(img.convert('RGB'))
                 print('OK', converted) # Success; TODO: change behavior
+
+                return render_template('index.html', osm_raw_polygons=osm_map.read(),
+                                       dg_raw_polygons=list(img2list([], x, y)), form=form)
             else:
                 flash('Could not fetch the tile from the tile server - perhaps, your coordinates are invalid.')
-
-            return redirect('/')
 
         if form.errors:
             for _, err in form.errors.items():
