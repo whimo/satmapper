@@ -120,13 +120,17 @@
             <form class="ui form" method="post">
                 {{ form.hidden_tag() }}
                 
-                <div class="three fields">
+                <div class="four fields">
                     <div class="two wide field">
                         {{ form.lat() }}
                     </div>
                     
                     <div class="two wide field">
                         {{ form.lon() }}
+                    </div>
+                    
+                    <div class="two wide field">
+                        {{ form.zoom() }}
                     </div>
                     
                     <div class="field">
