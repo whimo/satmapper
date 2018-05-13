@@ -11,9 +11,4 @@ $(document).ready(function (){
     
     osm_map.sync(dg_map);
     dg_map.sync(osm_map);
-    
-    polygons.forEach(function(current){
-        L.polygon(current).addTo(osm_map);
-        L.polygon(current).addTo(dg_map);
-    });
 });
