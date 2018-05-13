@@ -47,6 +47,21 @@
             </div>
             
             <div class="ui divider"></div>
+            
+            {% with flashes = get_flashed_messages() %}
+				{% if flashes %}
+					<div class="ui negative message">
+						<div class="header">
+							Tile mapping error
+						</div>
+						<ul class="list">
+							{% for f in flashes %}
+								<li>{{ f }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				{% endif %}
+			{% endwith %}
         
             <div class="ui stackable two column centered grid">
                 <div class="column">
@@ -89,6 +104,25 @@
                     </div>
                 </div>
             </div>
+            
+            <h2>Map a tile:</h2>
+            <form class="ui form" method="post">
+                {{ form.hidden_tag() }}
+                
+                <div class="three fields">
+                    <div class="two wide field">
+                        {{ form.lat() }}
+                    </div>
+                    
+                    <div class="two wide field">
+                        {{ form.lon() }}
+                    </div>
+                    
+                    <div class="field">
+                        {{ form.submit(class_="ui basic button") }}
+                    </div>
+                </div>
+            </form>
 
             <h2>Go to point:</h2>
             <div class="ui form">
